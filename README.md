@@ -1,10 +1,10 @@
 # CKAD Prep Course
 
-Course content solutions are available at the video playlist [Hands-on CKAD Prep Course](https://www.youtube.com/playlist?list=PLxzXw44oWTvSEkyFut7vEcg4JTJGVHBwT), prepared by Srikumar Krishnamurthy (CKAD).
+Course's exercise, labs & quiz solutions are available at this video playlist [Hands-on CKAD Prep Course](https://www.youtube.com/playlist?list=PLxzXw44oWTvSEkyFut7vEcg4JTJGVHBwT)
 
-In this Course, your instructor Srikumar Krishnamurthy, covers each modules in the [CKAD exam curriculum](https://www.cncf.io/certification/ckad/) primarily focus on the hands on lab for better time management during the certification exam. Also there are interactive labs that will be available at [Katacoda scenarios by Srikumar Krishnamurth author of Containers and Cloud](https://www.katacoda.com/containersandcloud). By end of this course you would have practiced different scenarios which will help you gain hands on knowledge on Kubernetes and as well during the CKAD exam.
+In this Course, your instructor Srikumar Krishnamurthy, covers each modules defined in the [CKAD exam curriculum](https://www.cncf.io/certification/ckad/) with primary focus on the hands on lab for better time management during the exam. Also there are interactive labs / quiz that will be available at [Katacoda scenarios by Srikumar Krishnamurth author of Containers and Cloud](https://www.katacoda.com/containersandcloud). By end of this course you would have practiced different scenarios which will help you gain hands on knowledge on Kubernetes and as well during the CKAD exam.
 
-During the exam, you are allowed to keep only one other browser tab open to refer official documentation. I am also including the bookmark I used for during my exam and will be referring during the solution walk through.
+During the exam, you are allowed to keep only one other browser tab open to refer kubernetes official documentation. I am also including the bookmark I used during my exam and will be referring during the solution video as required.
 
 ## Contents
 - Core Concepts - 13%

@@ -1,4 +1,4 @@
-Course content solutions are available at the video playlist [Hands-on CKAD Prep Course](https://www.youtube.com/playlist?list=PLxzXw44oWTvSEkyFut7vEcg4JTJGVHBwT), prepared by Srikumar Krishnamurthy (CKAD)
+[Home](https://github.com/containersandcloud/ckad-prep-course)
 
 # Core Concepts | Pods
 
