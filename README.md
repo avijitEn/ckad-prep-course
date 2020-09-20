@@ -10,9 +10,11 @@ During the exam, you are allowed to keep only one other browser tab open to refe
 
 ## Contents
 - Core Concepts - 13%
-  - [Pods](1-Core-Concepts/1-1-pods.md)
+  - [Pods](https://github.com/containersandcloud/ckad-prep-course/blob/master/1-Core-Concepts/1-1-pods.md)
+  - [Kubernetes api](https://github.com/containersandcloud/ckad-prep-course/blob/master/1-Core-Concepts/1-2-kubernetes-api.md)
 - Configuration - 18%
-  - Coming Soon..
+  - [Config Maps](https://github.com/containersandcloud/ckad-prep-course/blob/master/2-Configuration\2-1-configmaps.md)
+  - 
 - Multi-Container pods - 10%
   - Coming Soon..
 - Observability - 18%
