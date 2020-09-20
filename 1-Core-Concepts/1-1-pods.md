@@ -1,6 +1,6 @@
 [Home](https://github.com/containersandcloud/ckad-prep-course)
 
-# Core Concepts | Pods
+# Core Concepts | Pods [:movie_camera:](https://www.youtube.com/watch?v=dS4v0daDyHg&t=359s)
 
 ### Create a namespace called 'mynamespace' and a pod with image nginx called nginx on this namespace using imperative command
 
