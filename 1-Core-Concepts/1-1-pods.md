@@ -281,18 +281,18 @@ kubectl exec -it nginx -n mynamespace -- /bin/sh
 </p>
 </details>
 
-### Create a busybox pod in default namespace that echoes 'hello world' and then exits 
+### Create a busybox3 pod in default namespace that echoes 'hello world' and then exits 
 
 <details><summary>show</summary>
 <p>
 
 ```bash
-kubectl run busybox --image=busybox -it -- echo 'hello world'
+kubectl run busybox3 --image=busybox -it -- echo 'hello world'
 # or
-kubectl run busybox --image=busybox -it -- /bin/sh -c 'echo hello world'
+kubectl run busybox3 --image=busybox -it -- /bin/sh -c 'echo hello world'
 
 # Later you can also view the same in its log
-kubectl logs busybox
+kubectl logs busybox3
 ```
 
 </p>
@@ -305,7 +305,7 @@ kubectl logs busybox
 # --rm removes(deletes) the pod after its interactive shell exits.
 
 ```bash
-kubectl run busybox --image=busybox -it --rm -- /bin/sh -c 'echo hello world'
+kubectl run busybox4 --image=busybox -it --rm -- /bin/sh -c 'echo hello world'
 kubectl get po # nowhere to be found :)
 ```
 
@@ -327,6 +327,26 @@ kubectl exec -it nginxenv -- sh -c 'echo $var1'
 kubectl describe po nginxenv | grep val1
 # or
 kubectl run nginxenv --image=nginx --env=var1=val1 -it --rm -- env
+```
+
+</p>
+</details>
+
+### Clean up the created resources.
+
+<details><summary>show</summary>
+<p>
+
+```bash
+# simply delete the namespace you created to delete all the resources created under this.
+kubectl delete ns mynamespace
+
+# For all the resources created in default, you had to list it comma separated or run it one by one.
+kubectl delete pod <list all the pods comma separated>
+
+# During Exam time to delete a running pod is significant. Use can use no wait option to force it for immediate delete.
+kubectl delete pod <pod-name> --grace-period=0 --force
+
 ```
 
 </p>
